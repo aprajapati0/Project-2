@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css" />
+  
+  </head>
+ 
+  <body>
+      <script defer src="main.js"></script>
+    <!-- NAVIGATION BAR -->
+    <p class="nav">
+      <a href="index.html">Day</a>
+      <a href="week.html">Week</a>
+      <a href="month.html">Month</a>
+    </p>
+
+  <body>
+      <h1 class="class1"> Weekly To Do List</h1>
+      <img src="img/weekly-schedule.jpg" width="200px" /> 
+      <p>Manage a list of things "to do" in your week based on priority.</p>
+      <p>
+        <select id="mList">
+          <option value="add">Add Tasks</option>
+          <option value="insert">Insert at Position</option>
+          <option value="edit">Edit Tasks</option>
+        </select>
+        <button id="btn"> Make your list </button>
+        <hr /> 
+      </p>
+      <p>
+         Enter the things you need do based priority and click the button to make your list
+      </p>
+    <p>
+    To Add Another Task to the end, use the "Add Task Function"
+  </p>
+  <p>To Edit a Task to a different position, use the "Edit Tasks Function"</p>
+  <p>Once done a task, you may use the "Instert Postion Function" and insert a blank to replace the task that was at the position and make it blank</p>
+      <hr />
+      <!--  List Output -->
+      <div id="list">
+      </div>
+      <script src="main.js"></script>
+    </body>
+  </html>
